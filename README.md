@@ -150,6 +150,47 @@ Para saber mais: https://www.alura.com.br/artigos/html-css-e-js-definicoes?_gl=1
 
 ## FUNÇÕES
 
+### 1. Play no JS
+
+Como manipular a tag  ``<audio>`` do HTML através do JavaScript, como selecionar um elemento a partir de um seletor de id e a reproduzir um som a partir da função play(). 
+
+Vamos buscar a referência do elemento ``<audio>``:
+
+```bash
+document.querySelector('#som_tecla_pom').play();
+```
+
+Porém, a busca do elemento audio por si só não é suficiente para tocar o som ao clicar no botão referente a ele. É necessário para a sua execução uma função.
+
+
+### 2. O que é uma Função?
+
+O que é uma função, para que servem, como declará-la e sua sintaxe básica. 
+
+Declaramos uma função no JavaScript quando precisamos guardar um código que será executado num segundo momento, ou seja apenas quando ele for chamado/invocado.
+
+```bash
+function pomSoundPlay(){
+document.querySelector('#som_tecla_pom').play();
+}
+```
+
+IMPORTANTE: a ordem de execução de um código JavaScript importa, desde a inserção da tag script antes do fechamento da tag </body> no HTML até a ordem do código JavaScript dentro do seu próprio arquivo.
+Porém, há também a possibilidade de inserir a tag ``<script>`` no ``<head>``, da seguinte forma:
+
+```bash
+-------
+```
+
+### 3. Clique no botão
+
+```bash
+document.querySelector('.tecla_pom').onclick = pomSoundPlay;
+```
+
+A function ``pomSoundPlay`` é chamada sem os ``()``, porque queremos que ela seja executada apenas ao clicar na tecla do som Pom, ou seja, queremos que ela fique guardada. Ela sendo chamada com os parênteses, estamos indicando para ela ser executada automaticamente, independente de clique, o que apresentaria erro no console.
+
+
 
 
   
