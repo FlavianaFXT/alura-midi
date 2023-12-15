@@ -1,6 +1,11 @@
 # alura-midi
 Projeto Javascript desenvolvido no curso "Javascript para Web: Crie páginas dinâmicas" da Alura.
 
+# INDICE
+
+# TOPICOS DO CURSO:
+
+
 ## CONHECENDO O JAVASCRIPT
 
 ### 1.Clicando no botão
@@ -189,6 +194,8 @@ document.querySelector('.tecla_pom').onclick = pomSoundPlay;
 ```
 
 A function ``pomSoundPlay`` é chamada sem os ``()``, porque queremos que ela seja executada apenas ao clicar na tecla do som Pom, ou seja, queremos que ela fique guardada. Ela sendo chamada com os parênteses, estamos indicando para ela ser executada automaticamente, independente de clique, o que apresentaria erro no console.
+
+## LISTAS
 
 
 
