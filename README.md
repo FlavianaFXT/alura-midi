@@ -1,5 +1,5 @@
 # alura-midi
-Projeto Javascript desenvolvido no curso "Javascript para Web: Crie páginas dinâmicas" da Alura.
+EM DESENVOLVIMENTO - Projeto Javascript desenvolvido no curso "Javascript para Web: Crie páginas dinâmicas" da Alura.
 
 # INDICE
 
