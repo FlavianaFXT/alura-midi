@@ -197,6 +197,34 @@ A function ``pomSoundPlay`` é chamada sem os ``()``, porque queremos que ela se
 
 ## LISTAS
 
+**Lista de elementos:** automatizar e trabalhar com muitos elementos de uma vez só.
+
+```bash
+document.querySelectorAll('.tecla')
+```
+↘️ alternativa ao querySelector quando necessário buscar muitos elementos, que retorna uma lista (NodeList) com todos os elementos do seletor informado evitando a repetição de código.
+
+
+![image](https://github.com/FlavianaFXT/alura-midi/assets/113718720/fb087af3-f8ae-4036-8f2c-cd6a3f787768)
+
+
+**Referências:** (variáveis e constantes)
+
+devem ser criadas com um nome que tenha melhor relação com os valores que ela vai receber e guardar.
+
+```bash
+const listaDeTeclas = document.querySelectorAll('.tecla')
+```
+
+**Conhecendo listas:**
+A estrutura de uma lista em JavaScript e como podemos acessar os elementos a partir dos índices com a sintaxe do colchetes.
+
+```bash
+listaDeTeclas[0}.onclick = tocaSomPom;
+```
+
+
+## ITERANDO EM LISTAS
 
 
 
