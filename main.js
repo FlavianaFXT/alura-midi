@@ -8,3 +8,7 @@ function clapSoundPlay(){
 
 document.querySelectorAll('.tecla')
 
+while(){
+    
+}
+
