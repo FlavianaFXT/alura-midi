@@ -223,8 +223,46 @@ A estrutura de uma lista em JavaScript e como podemos acessar os elementos a par
 listaDeTeclas[0}.onclick = tocaSomPom;
 ```
 
-
 ## ITERANDO EM LISTAS
+
+Como acessamos cada item da lista de forma automatizada? LOOP ou LAÇOS DE LISTAS. Aqui, utilizamos o ``while``.
+
+Como percorrer uma lista usando a estrutura de repetição while, a criar referências variáveis com let, e como incrementar o valor de uma variável, e criar uma condição para evitar o loop infinito, também conhecemos o atributo length contido nas listas que nos ajudou a obter dinamicamente o valor do tamanho de uma lista.
+
+![image](https://github.com/FlavianaFXT/alura-midi/assets/113718720/77618a30-255a-4d0f-9cb7-af164de0f3ec)
+
+
+## FUNÇÕES COM PARÂMETROS
+
+O que são Parâmetros de uma Função?
+
+Como declarar e utilizar parâmetros dentro de uma função que criamos, e o que é uma função anônima e o retorno undefined de uma função.
+
+## FUNÇÕES ANÕNIMAS
+
+## TEXTOS DINÂMICOS
+
+Como criar textos dinâmicos utilizando template string e como acessar as classes de um elemento através do atributo classList.
+
+Template String --> 
+
+## REPETIÇÃO OTIMIZADA COM FOR
+
+Como é a estrutura de repetição for e como ela pode nos ajudar com um código mais limpo, além da forma de incrementar um valor de variável com o operador `++`.
+
+`while` dependeu de um fator externo para funcionar, a variável `contador`.
+Se houvessem outras listas para acessar, teríamos que criar outros contadores, conferindo repetição ao nosso código. Dessa forma, torna-se mais viável utilizar a estrutura de repetiçao `for`, tornando ainda nosso código mais limpo.
+
+Usamos a estrutura de repetição for, para percorrer uma lista de forma mais otimizada, onde em sua declaração criamos a variável contadora da repetição, a condição de interrupção das repetições e a condição de incrementação da variável contadora.
+
+![image](https://github.com/FlavianaFXT/alura-midi/assets/113718720/05fa38f1-9dfd-4c45-82ac-f47d4ee862e1)
+
+
+
+
+
+
+
 
 
 
