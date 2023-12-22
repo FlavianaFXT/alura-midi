@@ -5,11 +5,17 @@ document.querySelector(idEletoAudio).play();
 }
 
 let contador = 0;
+const tecla = listaDeTeclas[contador]
+const instrumento = tecla.classList[1];
+//TEMPLATE STRING
+const idAudio = `#som_${instrumento}`;
 
-while(contador < listaDeTeclas.length){
+// console.log(instrumento)
+
+while(contador < ltecla.length){
    
-    listaDeTeclas[contador].onclick = function (){
-        tocaSom('#som_tecla_pom');
+   tecla.onclick = function (){
+        tocaSom(idAudio);
     };
 
     contador = contador + 1;
