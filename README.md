@@ -257,8 +257,56 @@ Usamos a estrutura de repetição for, para percorrer uma lista de forma mais ot
 
 ![image](https://github.com/FlavianaFXT/alura-midi/assets/113718720/05fa38f1-9dfd-4c45-82ac-f47d4ee862e1)
 
+## EVENTOS E LÓGICAS
+
+### 1. Eventos do Teclado
+
+Seleção de teclas do nosso Alura Midi com teclas do teclado:
+
+```bash
+tecla.onkeydown = function(){
+tecla.classList.add('ativa');
+}
+```
+
+### 2. Adicionando e removendo classes
+
+Ao soltar a tecla, retirar o CSS de marcação para tecla selecionada, pois, caso executado conforme comando anterior, ela fica sempre ativa.
+
+```bash
+tecla.onkeyup = function(){
+tecla.clasList.remove('ativa');
+}
+```
+
+### 3. Condições no código
+
+Para ativar apenas as teclas Enter e Barra de Espaço:
+
+```bash
+tecla.onkeydown = function(evento.code){
+  if(evento.code === 'Space'){
+    tecla.classList.add('ativa');
+    }
+}
+```
+
+OBS: `1 = '1'` true; `1 === '1'` false;
+
+### 4. Operador Lógico
+
+Para executar mais de uma condição sem repetição desnecessária de código:
+
+```bash
+tecla.onkeydown = function(evento.code){
+  if(evento.code === 'Space' || evento.code === 'Enter'){
+    tecla.classList.add('ativa');
+    }
+}
+```
 
 
+### 5. Mais condições
 
 
 
