@@ -1,4 +1,4 @@
-# alura-midi
+Na # alura-midi
 EM DESENVOLVIMENTO - Projeto Javascript desenvolvido no curso "Javascript para Web: Crie páginas dinâmicas" da Alura.
 
 # INDICE
@@ -281,6 +281,8 @@ tecla.clasList.remove('ativa');
 
 ### 3. Condições no código
 
+O que é o objeto event, como declarar e acessar ele através do parâmetro de uma função atrelada a um evento. 
+
 Para ativar apenas as teclas Enter e Barra de Espaço:
 
 ```bash
@@ -295,6 +297,8 @@ OBS: `1 = '1'` true; `1 === '1'` false;
 
 ### 4. Operador Lógico
 
+Estrutura condicional if e para que ele serve, além de conhecer o operador de igualdade ==, estritamente igual (===), e o operador or (||).
+
 Para executar mais de uma condição sem repetição desnecessária de código:
 
 ```bash
@@ -307,6 +311,29 @@ tecla.onkeydown = function(evento.code){
 
 
 ### 5. Mais condições
+
+estruturas condicionais if e else juntas. O operador not equals (!=), operador lógico and (&&) e o valor null.
+
+bash```
+    function tocaSom (seletorAudio){
+        const elemento = document.querySelector(seletorAudio);
+    
+        if(elemento && elemento.localName === 'audio') {
+            
+                elemento.play();
+          
+        }else{
+            alert('Elemento não encontrado ou seletor inválido');
+          }
+    }
+```
+
+
+SOBRE O PROJETO
+
+Criamos uma função que reproduz o som dos instrumentos musicais que estão armazenados dentro de um elemento áudio do HTML e fizemos com que esses sons que foram reproduzidos lá na nossa interface gráfica, o Alura Midi, a nossa aplicação Aura Midi, fosse controlado pelos botões que desenhamos com HTML e CSS, que estavam prontos já e apenas fizemos que os nossos botões funcionassem e reproduzissem o som do instrumento que desejarmos.
+
+Aprendemos no nosso código como fazemos para fazer um código otimizado que percorre por todos os botões, reduzindo repetição de código e fazendo aumentar o reaproveitamento e a manutenção desse código.
 
 
 
