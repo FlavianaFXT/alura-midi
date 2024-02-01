@@ -22,15 +22,15 @@ const idAudio = `#som_${instrumento}`;
 // console.log(instrumento)
 
 //ENQUANTO
-// while(contador < tecla.length){
+while(contador < tecla.length){
    
-//    tecla.onclick = function (){
-//         tocaSom(idAudio);
-//     };
+   tecla.onclick = function (){
+        tocaSom(idAudio);
+    };
 
-//     contador = contador + 1;
-//     console.log(contador);
-// }
+    contador = contador + 1;
+    console.log(contador);
+}
 
 for(let contador=0; contador < tecla.length; contador++){
    
